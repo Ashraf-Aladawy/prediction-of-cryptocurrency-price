@@ -79,6 +79,10 @@ input{
     cursor: pointer;
 }
 
+.login button:hover{
+    background-color: #d0d4d4 ;
+}
+
 .signup button{
     width: 60%;
     height: 40px;
@@ -98,7 +102,7 @@ input{
 }
 
 button:hover{
-    background: #2b2188;
+    background: #1f1672;
 }
 
 .signup{

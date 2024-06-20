@@ -234,6 +234,10 @@ def update():
 def news():
     return render_template('news.html')
 
+@app.route('/news_dash.html')
+def news_dash():
+    return render_template('news_dash.html')
+
 
 @app.route('/btc.html')
 @login_required
