@@ -1,0 +1,261 @@
+*{
+    font-family: montserrat;
+}
+body{
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+
+.container1{
+    display: flex;
+    margin-left: 40px;
+}
+
+.container1 img{
+    width: 175px;
+    padding-top: 50px;
+}
+
+.container1 .about-text{
+    margin-top: 30px;
+}
+
+.container1 .about-text h4{
+    color: #fcfcfc;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.container1 .about-text p{
+    font-size: 35px;
+    font-style: italic;
+    color: #ffffff;
+}
+.container1 .about-text h3{
+    font-size: 50px;
+    font-style: italic;
+    color: #ffa600;
+}
+
+/*
+.container3{
+    width: 50%;
+    overflow: hidden;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.container3 ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container3 ul li{
+    list-style: none;
+    float: left;
+    width: 25%;
+    height: 70px;
+    background: #ecedee;
+    margin: 30px 25px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    border: 2px solid #747475;
+    border-radius: 10px;
+}
+*/
+.card{
+    border: 1px solid #a1a8aa;
+    border: 100%;
+    padding: 5px;
+    background: #f0f0f0;
+    display: inline-flex;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    width: 250px; 
+    height: 250px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; 
+    margin-top: 150px;
+}
+
+.card-body h3{
+    color: #0a0a0a;
+    font-style: italic;
+    justify-content: center;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.card-body ul li{
+    color: #088540;
+   font-style: italic;
+    justify-content: center;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.text-center img{
+    justify-content: center;
+    margin-top: 100px;
+}
+
+  /* ----Footer----*/
+
+  footer {
+    margin-top: 60px;
+    padding: 50px 0px;
+    background-color: rgb(37, 37, 99);
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.right-text-content p{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.container .social-icons li {
+    display: inline-flex;
+    list-style: none;
+    margin: 0 7px;
+  }
+  
+  .container .social-icons li .bi {
+    font-size: 15px;
+    line-height: 40px;
+    transition: .6s;
+    color: #2b0764;
+  }
+  
+  .container .social-icons li .bi:hover {
+    color: #fff;
+  }
+  
+  .social-icons a {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, orange, red);
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 0.5rem;
+    transition: 0.3s;
+  }
+
+  
+  .container .social-icons li a {
+    position: relative;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #cc9319;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0.5);
+  }
+  
+  .container .social-icons li a:hover {
+    transform: translate(0, -10);
+  }
+  
+  .container .social-icons li:nth-child(1) a:hover {
+    background-color: #3b5998;
+  }
+  
+  .container .social-icons li:nth-child(2) a:hover {
+    background-color: #e78a9c;
+  }
+  
+  .container .social-icons li:nth-child(3) a:hover {
+    background-color: #1da1f2;
+  }
+  
+  .container .social-icons li:nth-child(4) a:hover {
+    background-color: #0a66c2;
+  }
+  
+  .logo img {
+    width: 90px;
+    margin-left: 100px;
+  }
+  
+  .right-text-content p {
+    color: #fff;
+    font-style: italic;
+    text-transform: capitalize;
+  }
+  
+  .left-text-content h5 {
+    color: #fff;
+    margin-left: 110px;
+    font-size: 25px;
+    font-style: italic;
+    text-transform: capitalize;
+  
+  }
+  
+  .list-unstyled a {
+    color: #fff;
+    margin-left: 110px;
+    text-decoration: none;
+    font-style: italic;
+    text-transform: capitalize;
+  }
+  
+  .list-unstyled a:hover {
+    color: #cccfcf;
+  }
+
+/* responsive css */
+@media only screen and (max-width: 767px){
+    
+    /* ----Footer----*/
+    .right-text-content{
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 482px) {
+    .card2 .btn1{
+  width: 70%;
+  height: 200%;
+  margin-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .vis{
+  width: 75%;
+  height: 75%;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .vis{
+  padding: 10px;
+  height: 100%;
+    }
+}
+  
+@media only screen and (max-width: 780px) {
+    footer{
+  
+ margin-right: auto;
+ margin-left: auto;
+ display:block
+    }
+}
+  
+  
+
+
