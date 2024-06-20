@@ -1,6 +1,0 @@
-{
-    "python.createEnvironment.contentButton": "hide",
-    "python.globalModuleInstallation": false,
-    "python.terminal.activateEnvInCurrentTerminal": false,
-    "python.terminal.activateEnvironment": true
-}
